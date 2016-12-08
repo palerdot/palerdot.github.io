@@ -1,115 +1,113 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-
-	<title>palerdot</title>
-	
-	<style>
-	
-		html, body{
-		
-			margin: 0;
-			padding: 0;
-			
-			font-size: 19px;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-			
-			background-color: #eee;
-			background: #eee;
-			font-size: 19px;
-			color: #333;
-		
-		}
-		
-		#main-page{
-			position: absolute;
-			top: 25%;
-			left: 15%;
-			height: auto;
-			width: 70%;
-			
-			font-size: 19px;	
-			text-align: center;
-				
-			overflow-x: none;
-				
-		}
-		
-			#palerdot{
-				font-size: 24px;
-			}
-		
-		#logo-div{
-			margin-bottom: 5%;
-			padding-bottom: 5%;
-			border-bottom: thick solid grey;
-			text-align: center;
-		}
-		
-		#github-icon{
-			
-			width: 75px;
-			height: 75px;
-			
-			
-			background-color: #ddd;
-			border: 2px solid #ccc;
-			
-			background-image: url(img/github-logo.png);
-			background-repeat: no-repeat;
-			background-position: 6px 6px;
-			
-			text-decoration: none;
-			
-			-webkit-border-radius: 150px;
-			-moz-border-radius: 150px;
-			border-radius: 150px;
-			
-			transition: 0.5s;
-			display: inline-block;
-		}
-		
-			#github-icon:hover{
-				cursor: pointer;
-				background-color: #ccc;
-				box-shadow: 0 0 1em #333;
-			}
-	
-	</style>
-
-	<!-- Google analytics code -->
-	
-	<script>
-	  
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-44657437-1', 'palerdot.github.io');
-	  ga('send', 'pageview');
-
-	</script>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>palerdot</title>
+    <!-- Materialize css -->
+    <link href="/css/material-icon.css" rel="stylesheet">
+    <link href="/css/materialize.min.css" rel="stylesheet">
+    <!-- font awesome css -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!-- main app css -->
+    <link href="/css/main.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="grey darken-4 grey-text">
 
-	<div id = "main-page">
-	
-		<header id = "palerdot"><h1>palerdot</h1></header>
-	
-		<div id = "logo-div">
-		
-			<a href = "http://github.com/palerdot" target = "_blank" id = "github-icon"></a>
-		
-		</div>
-	
-	</div>
-	
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center">.</h1>
+            <div class="row center">
+                <h2 class="header col s12">palerdot</h2>
+                <h5 class="header col s12 light">(Arun Kumar)</h5>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row center">
+            <div id="social-profiles" class="col s12">
+                <div class="fa fa-github fa-3x"></div>
+                <div class="fa fa-envelope fa-3x"></div>
+                <div class="fa fa-stack-overflow fa-3x"></div>
+                <div class="fa fa-angellist fa-3x"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container thin-border-line"></div>
+
+    <div class="container">
+        <div id="features" class="section scrollspy">
+            <div class="row center">
+                <h3>My Works</h3>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center blue-grey-text">
+                            <i class="material-icons medium">restore</i>
+                        </h2>
+                        <h5 class="center">Repeatable Reminders</h5>
+                        <p class="light">
+                            Schedule one-time reminders or repeatable Reminders. You can set reminders to repeat for minutes, hours, days or months. Get Notified in Chrome Browser for every reminder you set. You can also view all the scheduled reminders in an easy way.
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center blue-grey-text">
+                            <i class="material-icons medium">save</i>
+                        </h2>
+                        <h5 class="center">Save Pages to Read Later</h5>
+                        <p class="light">
+                            Just right click and press "Add to Remindoro" to save the current web page to the Remindoro Extension. You can then schedule to read it later. You can also select a text and press "Save text to Remindoro" to save the selected text.
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center blue-grey-text">
+                            <i class="material-icons medium">description</i>
+                        </h2>
+                        <h5 class="center">Take Notes</h5>
+                        <p class="light">
+                            Remindoro can also be used as an generic note taking app even if you do not want to set reminders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="app" class="container">
+        <div class="row center">
+            <div class="col s12">
+                {{ message }}          
+            </div>
+        </div>
+    </div>
+
+    <div class="container thin-border-line"></div>
+
+    <!-- jquery js -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- lodash js -->
+    <script src="/js/lodash.min.js"></script>
+    <!-- materialize css js -->
+    <script src="/js/materialize.min.js"></script>
+    <!-- vue js -->
+    <script src="/js/vue.min.js"></script>
+    <!-- main js -->
+    <script src="/js/main.js"></script>
+    <!-- google analytics js -->
+    <script src="/js/google-analytics.js"></script>
 </body>
 
 </html>

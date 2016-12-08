@@ -1,0 +1,8 @@
+.thin-border-line {
+    margin: 7em auto;
+    border-bottom: thin solid grey;
+}
+
+#social-profiles .fa {
+    margin: 0 7px;
+}
