@@ -1,66 +1,54 @@
-::-webkit-scrollbar {
-    height: 7px;
-    width: 7px;
-    background: #333;
+body {
+    background: #212121 !important;
+    color: #AEAEAE !important;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #555555;
-    -webkit-border-radius: 0;
-    -webkit-box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.75);
+.ui.segment {
+    background: transparent !important;
 }
 
-.my-work {
-    border: thin solid #333;
-    margin: 7px !important;
+.masthead {
+    background: transparent !important;
+    margin: 7% !important;
 }
 
-.my-work i {
-    font-size: 3rem;
-    margin: 5px;
+.the-dot {
+    font-size: 3.3rem !important;
+    margin: 1.1em !important;
 }
 
-.my-work i.large {
-    font-size: 5rem;
+.the-name {
+    font-size: 3.3rem !important;
+    margin: 0.7em !important;   
 }
 
-.my-work a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
+.headline {
+    font-size: 28px !important;
 }
 
-.my-work:hover {
-    box-shadow: 0 0 7px #777;
+.icon-segment {
+    font-size: 3.3rem !important;
+    margin: 1.1em 0 0.1em 0 !important;
 }
 
-.my-work .work-section {
-    padding: 7px;
-    border-bottom: thin solid #333;
-}
-
-.my-work .work-section:last-child {
-    border: none;
-}
-
-.thin-border-line {
-    margin: 7em auto;
-    border-bottom: thin solid grey;
-}
-
-#social-profiles a {
-    color: inherit;
-    text-decoration: none;
-}
-
-#social-profiles .fa {
+.icon-segment a {
+    display: inline-block;
     border: thin solid transparent;
-    margin: 7px;
-    padding: 7px;
+    color: inherit !important;
+    text-decoration: none !important;
+
+    padding: 2.2rem 1.1rem 1.1rem !important;
 }
 
-#social-profiles div:hover {
-    cursor: pointer;
-    border: thin solid #777;
-    box-shadow: 0 0 13px #777;
+.icon-segment a:hover {
+    border: thin solid #555 !important;
+}
+
+.icon-segment i.icon {
+    /*margin: 0.7rem !important;*/
+}
+
+.divider {
+    background: #555 !important;
+    margin: 2% 5% !important;
 }
