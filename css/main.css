@@ -3,8 +3,27 @@ body {
     color: #AEAEAE !important;
 }
 
-.ui.segment {
+.ui.segment{
     background: transparent !important;
+}
+
+.ui.card {
+    background: inherit !important;
+    margin: 2.5em 0 !important;
+    border: thin solid #555 !important;
+    box-shadow: none !important;
+}
+
+    .ui.card .project-info * {
+        color: #AEAEAE !important;
+    }
+
+    .ui.card .extra.content i {
+        font-size: 3.3rem !important;
+    }
+
+.ui.header {
+    color: inherit !important;
 }
 
 .masthead {
