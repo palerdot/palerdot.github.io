@@ -7,20 +7,36 @@ body {
     background: transparent !important;
 }
 
-.ui.card {
+.ui.divider {
+    border-bottom: none !important;
+}
+
+.my-work {
     background: inherit !important;
     margin: 2.5em 0 !important;
-    border: thin solid #555 !important;
+    border: thin solid #333 !important;
     box-shadow: none !important;
 }
 
-    .ui.card .project-info * {
+    .my-work:hover {
+        box-shadow: 0 0 5px #777 !important;
+    }
+
+    .my-work * {
         color: #AEAEAE !important;
     }
 
-    .ui.card .extra.content i {
-        font-size: 3.3rem !important;
+    .my-work .tech-stack i {
+        font-size: 2.7rem !important;
+        margin: 0 0.7rem !important;
+        color: #AEAEAE !important;
     }
+
+    .my-work .extra-info {
+        background: #333 !important;
+        color: white !important;
+    }
+
 
 .ui.header {
     color: inherit !important;
