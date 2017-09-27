@@ -11,6 +11,18 @@ body {
     border-bottom: none !important;
 }
 
+.intro {
+    font-size: 1.33rem !important;
+    line-height: 3.3rem !important;
+    padding: 3rem !important;
+}
+
+.side-note {
+    font-size: 1.1rem !important;
+    line-height: 2rem !important;
+    padding: 3rem !important;   
+}
+
 .my-work {
     background: inherit !important;
     margin: 2.5em 0 !important;
