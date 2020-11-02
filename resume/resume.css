@@ -12,7 +12,7 @@ page {
   display: block;
 
   margin: 1% auto 1% auto;
-  padding: 1cm 1.3cm 1cm 1.3cm;
+  /* padding: 1cm 1.3cm 1cm 1.3cm; */
 
   line-height: 1.4em;
   text-align: left;
@@ -54,11 +54,57 @@ page[size="A4"] {
 .link {
   color: steelblue;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.email {
+  font-size: 24px;
 }
 
 .about-info {
   line-height: 1.5em;
   margin: 1em 0;
-  font-size: 23px;
+  font-size: 21px;
 }
+
+.porumai {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.section .heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.porumai .work, .porumai .projects {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.porumai .projects {
+  padding-left: 1rem;
+}
+
+.project {
+  margin: 1.5rem 0;
+}
+
+.project .about {
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+
+
+
+
