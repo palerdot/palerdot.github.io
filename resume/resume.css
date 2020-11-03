@@ -1,10 +1,24 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
 body {
+  font-family: 'Open Sans';
   background: rgb(204, 204, 204);
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    text-underline-position: under;
 }
 
 page {
@@ -54,17 +68,17 @@ page[size="A4"] {
 .link {
   color: steelblue;
   text-decoration: underline;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .email {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .about-info {
   line-height: 1.5em;
   margin: 1em 0;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .porumai {
@@ -81,7 +95,7 @@ page[size="A4"] {
 }
 
 .section .heading {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -96,12 +110,12 @@ page[size="A4"] {
 }
 
 .project {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .project .about {
-  margin: 1rem 0;
-  font-size: 20px;
+  margin: 0.5rem 0;
+  font-size: 18px;
 }
 
 
