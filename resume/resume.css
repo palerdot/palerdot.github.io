@@ -1,17 +1,21 @@
 /* open-sans-regular - latin */
-@font-face {
+/* @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff2') format('woff2'), 
+       url('./fonts/open-sans-v18-latin/open-sans-v18-latin-regular.woff') format('woff'); 
+} */
+
+/* Utility classes */
+.bold {
+  font-weight: bold;
 }
 
-
-
 body {
-  font-family: 'Open Sans';
+  /* font-family: 'Open Sans'; */
+  font-family: 'Helvetica';
   background: rgb(204, 204, 204);
 }
 
@@ -35,12 +39,14 @@ page {
 page[size="A4"] {
   width: 21cm;
   height: 29.7cm;
+  /* height: 37cm; */
 }
 
 .name {
   font-size: 2.1rem;
   font-weight: bold;
   margin-bottom: 1.1rem;
+  color: rgb(54, 125, 162)
 }
 
 .flex-row {
@@ -66,13 +72,14 @@ page[size="A4"] {
 }
 
 .link {
-  color: steelblue;
+  color: rgb(23, 87, 120);
   text-decoration: underline;
   font-size: 18px;
 }
 
 .email {
   font-size: 18px;
+  color: rgb(23, 87, 120);
 }
 
 .about-info {
@@ -97,6 +104,9 @@ page[size="A4"] {
 .section .heading {
   font-size: 18px;
   font-weight: bold;
+  color: rgb(54, 125, 162);
+  border-bottom: thin solid rgb(170, 170, 170);
+  padding-bottom: 4px;
 }
 
 .porumai .work, .porumai .projects {
@@ -113,9 +123,37 @@ page[size="A4"] {
   margin: 1rem 0;
 }
 
+.project .link {
+  font-weight: bold;
+}
+
 .project .about {
   margin: 0.5rem 0;
   font-size: 18px;
+}
+
+.experience {
+  margin: 1rem 0;
+}
+
+.experience .company {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(23, 87, 120);
+}
+
+.experience .info {
+  font-size: 15px;
+  margin: 0.3rem 0;
+  color: rgb(23, 87, 120);
+}
+
+.experience .info .duration {
+  font-style: italic;
+}
+
+.experience .work {
+  font-size: 14px;
 }
 
 
