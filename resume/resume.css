@@ -26,6 +26,12 @@ page {
   text-align: left;
 }
 
+/* we are using legal size */
+page[size="LEGAL"] {
+  width: 22cm;
+  height: 36cm;
+}
+
 page[size="A4"] {
   width: 21cm;
   height: 29.7cm;
@@ -162,7 +168,8 @@ page[size="A4"] {
   flex: 1;
   flex-direction: row;
   border-top: thin solid rgb(170, 170, 170);
-  padding-top: 4px;
+  border-bottom: thin solid rgb(170, 170, 170);
+  padding: 8px 0;
 }
 
 .education .heading {
@@ -178,6 +185,40 @@ page[size="A4"] {
 
 .education .grade {
   margin: 8px 0;
+}
+
+.open-source, .education {
+  display: flex;
+  flex: 1;
+}
+
+.open-source {
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+.open-source .heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(54, 125, 162);
+  padding: 8px 0;
+}
+
+.open-source .heading .selected {
+  font-size: 13px;
+  font-style: italic;
+  color: #555;
+  font-weight: normal;
+}
+
+.open-source .section {
+  margin: 4px 0;
+}
+
+.open-source .internal-link {
+  display: inline;
+  font-size: 13px;
 }
 
 
