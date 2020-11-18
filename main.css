@@ -2,6 +2,13 @@ body {
   font-family: "Helvetica";
   background: #00001F !important;
   color: #CECECE !important;
+  margin: 0 3rem;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    margin: 0 13rem;
+  }
 }
 
 .center {
@@ -27,10 +34,11 @@ body {
 
 .masthead {
   display: flex;
-  padding: 1em;
-  margin: 5em;
+  padding: 1rem;
+  margin: 5rem 1rem;
+  margin-top: 10rem;
 
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .the-dot {
@@ -40,12 +48,12 @@ body {
 }
 
 .the-name {
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   margin: 1rem 0;
 }
 
 .headline {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
 }
 
@@ -58,10 +66,10 @@ i.icon {
   display: inline-block;
   opacity: 1;
   
-  width: 1.18em;
-  height: 1em;
+  width: 3rem;
+  height: 3rem;
   
-  font-size: 1em;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   text-decoration: inherit;
@@ -76,7 +84,7 @@ i.icon svg {
 
 .icon-segment {
   font-size: 3.3rem !important;
-  margin: 1.1em 0 0.1em 0 !important;
+  margin: 1.1rem 0 0.1rem 0 !important;
 }
 
 .icon-segment a {
@@ -85,7 +93,12 @@ i.icon svg {
   color: inherit !important;
   text-decoration: none !important;
 
-  padding: 2.2rem 1.1rem 1.1rem !important;
+  /* padding: 2.2rem 1.1rem !important; */
+
+  width: 3rem;
+  height: 3rem;
+
+  padding: 1rem;
 }
 
 .icon-segment a:hover {
@@ -94,7 +107,7 @@ i.icon svg {
 
 .divider {
   background: #555 !important;
-  margin: 2% 5% !important;
+  margin: 1rem !important;
   line-height: 1;
   height: 0;
   font-weight: 700;
@@ -103,4 +116,10 @@ i.icon svg {
   color: rgba(0, 0, 0, 0.85);
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: none;
+}
+
+.intro {
+  margin: 3rem 1rem;
+  line-height: 2rem;
+  font-size: 1.25rem;
 }
