@@ -2,7 +2,7 @@ body {
   font-family: "Helvetica";
   background: #00001F !important;
   color: #CECECE !important;
-  margin: 0 3rem;
+  margin: 0 2.5rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -48,11 +48,14 @@ body {
 }
 
 .the-name {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 1rem 0;
 }
 
 .headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.3rem;
   margin: 1rem 0;
 }
