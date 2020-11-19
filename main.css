@@ -123,3 +123,60 @@ i.icon svg {
   line-height: 2rem;
   font-size: 1.25rem;
 }
+
+.projects {
+  margin: 3rem 1rem;
+  line-height: 2rem;
+}
+
+.projects .about {
+  font-size: 1.1rem;
+}
+
+.project {
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+.project .title {
+  color: lightskyblue;
+  font-size: 1.15rem;
+  text-underline-position: under;
+}
+
+.project .title:hover {
+  opacity: 0.85;
+}
+
+.project .about {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.project .about .link {
+  color: lightsteelblue;
+  font-size: 0.9rem;
+}
+
+.contact {
+  margin: 2rem 1rem;
+}
+
+.contact .link {
+  color: lightskyblue;
+  font-size: 1rem;
+  text-underline-position: under;
+}
+
+.contact .email {
+  color: lightblue;
+}
+
+.greetings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.89rem;
+  margin: 5rem;
+}
+
