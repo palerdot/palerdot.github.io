@@ -105,6 +105,12 @@ page[size="A4"] {
   padding-bottom: 4px;
 }
 
+.section .subtitle {
+  font-size: 15px;
+  color: rgb(54, 125, 162);
+  font-weight: normal;
+}
+
 .porumai .work, .porumai .projects {
   display: flex;
   flex: 1;
